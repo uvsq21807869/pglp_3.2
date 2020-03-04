@@ -13,6 +13,10 @@ public class Manager extends Employe {
 	public void setNbr(int nbr) {
 		this.nbr = nbr;
 	}
+	@Override
+	public double calculSalaire() {
+		return super.calculSalaire()+100*nbr;
+	}
 	
 
 }
