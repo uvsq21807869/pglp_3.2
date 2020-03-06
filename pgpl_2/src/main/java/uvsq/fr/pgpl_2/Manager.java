@@ -5,7 +5,6 @@ public class Manager extends Employe {
 	public Manager(String nom, int annee) {
 		super(nom, annee);
 		nbr=1;
-		// TODO Auto-generated constructor stub
 	}
 	public int getNbr() {
 		return nbr;
